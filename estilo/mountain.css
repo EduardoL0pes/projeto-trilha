@@ -1,0 +1,63 @@
+@charset "UTF-8";
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    padding: 10px;
+    background-color: rgb(197 189 69);
+}
+
+nav a {
+    padding: 50px;
+    color: white;
+}
+
+
+nav a:hover {
+    color: black;
+
+}
+
+p.titulo {
+    display: inline-block;
+    padding-bottom: 10px;
+    margin-left: 10vw;
+    margin-top: 0vw;
+    font: bold 1.5em 'Courier New', Courier, monospace;
+}
+
+main {
+    background-color: rgb(206, 206, 206);
+}
+
+section.imagem {
+    background-image: url(../imagens/mountain-bike.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 67vh;
+}
+
+section.imagem2 {
+    background-image: url('../imagens/mountain2.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 67vh;
+}
+
+p {
+    display: flex;
+    font-size: 1.5rem;
+    position: absolute;
+    left: 640px;
+    width: 500px;
+    line-height: 1.4;
+    text-align: justify;
+    margin-top: 40px;
+
+}

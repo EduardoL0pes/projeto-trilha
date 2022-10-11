@@ -1,0 +1,87 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    padding: 10px;
+    background-color: rgba(0, 128, 0, 0.699);
+}
+
+nav a {
+    padding: 50px;
+    
+}
+
+nav a:hover {
+    color: black;
+
+}
+
+p.titulo {
+    display: inline-block;
+    padding-bottom: 10px;
+    margin-left: 36vw;
+    font: bold 1.5em 'Courier New', Courier, monospace;
+}
+
+main {
+    background-color: darkgray;
+    height: 100vh;
+}
+
+section#img {
+    display: inline-flex;
+    width: 25vw;
+    height: 90vh;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border: 2px solid black;
+    box-sizing: border-box;
+    border-radius: 20px; 
+    box-shadow: 0px 4px 10px #00000075;
+    background-size: cover;
+}
+
+section.imagem1 {
+    background-image: url('../imagens/trilha-2.0.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 50vw;
+    top: 5vh;
+    margin-right: -10px;
+}
+
+section.imagem2 {
+    background-image: url('../imagens/mountain-bike.jpg');
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 5vh;
+    margin-left: -10px;
+}
+
+h1 {
+    background-color: rgba(0, 0, 0, 0.575);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 3em;
+    padding: 10px;
+    color: white;
+    font-variant: small-caps;
+    border-radius: 20px;
+}
+
+h1:hover {
+    background-color: rgba(0, 128, 0, 0.699);
+    color: rgb(255, 255, 255);
+    font-size: 2.5em;
+    transition: .3s;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
